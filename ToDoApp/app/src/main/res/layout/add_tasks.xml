@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1B8CB"
+    android:paddingLeft="21dp"
+    android:paddingRight="21dp"
+    android:paddingBottom="21dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:padding="11dp"
+        android:text="@string/newtask"
+        android:textColor="#323030"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        tools:ignore="TextViewEdits" />
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:autofillHints=""
+        android:background="#90ffffff"
+        android:hint="@string/newtask"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:padding="15dp"
+        android:textColorHint="#626468"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/add_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="11dp"
+        android:backgroundTint="#fff"
+        android:text="@string/create"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>
