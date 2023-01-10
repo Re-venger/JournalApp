@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
                 dialog.dismiss();
             });
             dialog.show();
+
         });
 
         TaskRecyclerAdapter adapter = new TaskRecyclerAdapter(this, tasklist);
